@@ -4,14 +4,14 @@
 This a CSS stylesheet for Facebook, re-making layout clean and removing ad around window, thus called "bookface."
 
 ## Usage
-### Safari
+#### Safari
 
 1. 開啟「偏好設定」
 2. 進入「進階」分頁
 3. 在「樣式表」的地方，選擇 bookface.css
 4. 重新整理臉書頁面即可
 
-### Chrome
+#### Chrome
 
 1. 下載擴充功能：Stylist
 2. 進入 Stylist 選項
@@ -21,6 +21,8 @@ This a CSS stylesheet for Facebook, re-making layout clean and removing ad aroun
 6. 輸入自己喜歡的名稱，Save 之後即生效。
 
 ## Customize
+
+#### Show/Hide
 
 第 24 到 31 行的設定，可以改變側邊欄欲顯示的項目。
 
@@ -37,6 +39,7 @@ Line | Element id    | Title
 
 Comment or un-comment line to make them show/hide.
 
+#### View only few
 
 Or, if you only want to see only first N items in the list of each. Change style from 
 
