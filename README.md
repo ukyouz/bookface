@@ -24,7 +24,7 @@ This a CSS stylesheet for Facebook, re-making layout clean and removing ad aroun
 
 第 24 到 31 行的設定，可以改變側邊欄欲顯示的項目。
 
-Line | element id    | Title
+Line | Element id    | Title
 -----|---------------|--------
 \#24 | #userNav      | 使用者
 \#25 | #pinnedNav    | 最愛
