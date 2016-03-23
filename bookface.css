@@ -49,6 +49,7 @@
 .hasLeftCol #rightCol .cardRightCol .fbRemindersStory .fbRemindersIcon {margin-left:5px!important;margin-right:20px!important;float:right!important}
 .hasLeftCol #rightCol .cardRightCol {overflow:hidden}
 .hasLeftCol #rightCol .cardRightCol span {text-align:center!important}
+.hasLeftCol #rightCol .cardRightCol .home_right_column {min-height:0!important}
 .hasLeftCol #rightCol .cardRightCol .uiBoxWhite.topborder.pvm {display:none}
 .hasLeftCol #rightCol .cardRightCol .pagelet > div {display:none;}
 .hasLeftCol #rightCol .cardRightCol .pagelet div:first-child {display:block;}
