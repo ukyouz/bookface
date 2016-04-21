@@ -1,7 +1,7 @@
 /*----------- bookface -----------*/
 #pagelet_ego_pane, #pagelet_side_ads, #pagelet_photos_stream_side, #pagelet_photos_side, #pagelet_photos_side, #pagelet_rhc_footer, #pagelet_games_rhc {display:none}
 .fbx ._uaw,
-.fbx #globalContainer {width:981px!important}
+.fbx #globalContainer {width:960px!important}
 #pagelet_bluebar #searchBarClickRef {max-width:460px!important;}
 .hasLeftCol #globalContainer .uiContextualLayerPositioner._53ii {width:505px!important;}
 .hasLeftCol #globalContainer #friends_reminders_dialog,
@@ -9,7 +9,7 @@
 .hasLeftCol #globalContainer #pages_reminders_dialog {left:0px!important;}
 .hasLeftCol #globalContainer .uiContextualLayerPositioner._53ii .fbRemindersContent .fbCalendarList .fbCalendarItemContent {width:320px!important}
 .hasLeftCol #mainContainer {margin-left:0px;}
-.hasLeftCol #leftCol {float:right!important}
+.hasLeftCol #leftCol {margin-right:-12px;float:right!important}
 
 /**
  *
@@ -27,14 +27,14 @@
 .hasLeftCol #leftCol #sideNav #appsNav ul {display:none}
 .hasLeftCol #leftCol #sideNav #listsNav ul {display:none}
 .hasLeftCol #leftCol #sideNav #interestsNav ul {display:none}
-.hasLeftCol #leftCol #sideNav #pagesNav ul {display:none}
+.hasLeftCol #leftCol #sideNav #pagesNav ul {height:48px;overflow:hidden}
 .hasLeftCol #leftCol #sideNav #eventsNav ul {display:none}
 
 /**
  *
  */
 
-.hasLeftCol #contentCol {margin-right:195px!important; margin-left:0!important;padding-left:0px!important}
+.hasLeftCol #contentCol {margin-right:174px!important; margin-left:0!important;padding-left:0px!important}
 .hasLeftCol #contentCol._5ss6 ._5rzs._5v6d ._5v6e {padding:0!important;border:none!important}
 .hasLeftCol #contentCol._5v6h #rightCol {margin-bottom: -10px}
 .hasLeftCol #rightCol {width:100%!important;padding-right:0!important}
@@ -54,9 +54,11 @@
 .hasLeftCol #rightCol .cardRightCol .pagelet > div {display:none;}
 .hasLeftCol #rightCol .cardRightCol .pagelet div:first-child {display:block;}
 .hasLeftCol #rightCol .cardRightCol .pagelet ._c51 {overflow:hidden;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 #groupsNewMembersLink {width:380px;float:left;}
+.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 ._i7m {width:254px;}
+.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 #groupsNewMembersLink {width:254px;}
+.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 ._4t2q {position:absolute;top:12px;right:12px;}
 .hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsRHCSectionBox {margin-top:12px!important;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsSideMargin  {width:370px;float:right;}
+.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsSideMargin  {width:370px;}
 .hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsSideMargin .ptm {padding-top:0!important;}
 .hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsSideMargin .groupsRHCSectionHeader {margin-bottom:10px;}
 .hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .topborder {border:none!important;}
