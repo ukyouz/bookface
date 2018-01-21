@@ -1,7 +1,5 @@
 #pagelet_ego_pane, #pagelet_side_ads, #pagelet_photos_stream_side, #pagelet_photos_side, #pagelet_photos_side, #pagelet_rhc_footer, #pageFooter, #pagelet_games_rhc {display:none}
 .fbx ._uaw,
-/*.pagesTimelineLayout ._2gqw,*/
-/*.fbx #globalContainer {width:960px!important}*/
 .pagesTimelineLayout ._2t-d {width:1012px!important;}
 #pagelet_bluebar #searchBarClickRef {max-width:460px!important;}
 .hasLeftCol #globalContainer .uiContextualLayerPositioner._53ii {width:505px!important;}
@@ -10,7 +8,7 @@
 .hasLeftCol #globalContainer #pages_reminders_dialog {left:0px!important;}
 .hasLeftCol #globalContainer .uiContextualLayerPositioner._53ii .fbRemindersContent .fbCalendarList .fbCalendarItemContent {width:320px!important}
 .hasLeftCol #mainContainer {margin-left:0px!important;}
-.hasLeftCol #leftCol {margin-right:-12px;float:right!important}
+.hasLeftCol #leftCol {float:right!important;}
 /**
  *
  * Styles below set corresponding list show/hide in sidebar navigation.
@@ -20,60 +18,38 @@
  * Or, just comment line to make it appear normally.
  *
  */
-
+  
 /* .hasLeftCol #leftCol #sideNav #userNav ul {display:none} */
 /* .hasLeftCol #leftCol #sideNav #pinnedNav ul {display:none} */
 /* .hasLeftCol #leftCol #sideNav #groupsNav ul {display:none} */
-.hasLeftCol #leftCol #sideNav #appsNav ul {display:none}
+/* .hasLeftCol #leftCol #sideNav #appsNav ul {display:none} */
 .hasLeftCol #leftCol #sideNav #listsNav ul {display:none}
 .hasLeftCol #leftCol #sideNav #interestsNav ul {display:none}
 .hasLeftCol #leftCol #sideNav #pagesNav ul {height:48px;overflow:hidden}
 .hasLeftCol #leftCol #sideNav #eventsNav ul {display:none}
-
+  
 /**
  *
  */
-.hasLeftCol #contentCol {margin-right:190px!important;margin-left:0px!important;padding-left:0px!important}
+.hasLeftCol #contentCol {margin-left: 0!important;}
+.hasLeftCol #contentCol .clearfix._3399,
+.hasLeftCol #contentCol .clearfix:after {clear:left!important;}
+.hasLeftCol #contentCol {margin-right:190px!important;padding-left:0px!important;}
+.hasLeftCol ._1qkq {margin-left:0px!important;float:none!important;}
+.hasLeftCol ._14i5 {right:0!important;}
 .hasLeftCol #contentCol._5ss6 ._5rzs._5v6d ._5v6e {padding:0!important;border:none!important}
 .hasLeftCol #contentCol._5v6h #rightCol {margin-bottom: -10px}
 .timelineLayout #rightCol {margin-right:-25px!important;}
-.hasLeftCol #rightCol {width:100%!important;padding-right:0!important}
-.hasLeftCol #rightCol .fixed_elem {position: relative!important}
-.hasLeftCol #rightCol .fixed_elem.rightColumnWrapper {top: 0!important}
+.hasLeftCol #rightCol {width:100%!important;padding-right:0!important;left:0!important;}
+.hasLeftCol #rightCol .fixed_elem {left:0!important;}
 .hasLeftCol #rightCol ._64a {margin-bottom:-16px}
-.hasLeftCol #rightCol .cardRightCol {width:auto!important}
-.hasLeftCol #rightCol .cardRightCol #pagelet_reminders {text-align:right;}
-.hasLeftCol #rightCol .cardRightCol #pagelet_reminders .fbReminders {padding-top:0!important;padding-bottom:0!important}
-.hasLeftCol #rightCol .cardRightCol #pagelet_reminders .egoOrganicColumn {padding:0!important}
-.hasLeftCol #rightCol .cardRightCol #pagelet_reminders .egoOrganicColumn .displayedTickerToggleWrapper {display:none!important}
-.hasLeftCol #rightCol .cardRightCol .fbRemindersStory .fbRemindersIcon {margin-left:5px!important;margin-right:20px!important;float:right!important}
-.hasLeftCol #rightCol .cardRightCol {overflow:hidden}
-.hasLeftCol #rightCol .cardRightCol span {text-align:center!important}
-.hasLeftCol #rightCol .cardRightCol .uiBoxWhite.topborder.pvm {display:none}
-.hasLeftCol #rightCol .cardRightCol .home_right_column {min-height:0!important}
-.hasLeftCol #rightCol .cardRightCol .pagelet > div {display:none;}
-.hasLeftCol #rightCol .cardRightCol .pagelet div:first-child {display:block;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 {overflow:hidden;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 ._i7m {width:254px;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 #groupsNewMembersLink {width:254px;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 ._4t2q {position:absolute;top:12px;right:12px;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsRHCSectionBox {margin-top:12px!important;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsSideMargin  {width:494px;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsSideMargin .ptm {padding-top:0!important;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .groupsSideMargin .groupsRHCSectionHeader {margin-bottom:10px;}
-.hasLeftCol #rightCol .cardRightCol .pagelet ._c51 .topborder {border:none!important;}
-/* .hasLeftCol #rightCol .cardRightCol .pam, */
-.hasLeftCol #rightCol .cardRightCol #pagelet_ego_contextual_group {display:none}
-.hasLeftCol #rightCol .cardRightCol #event_invite,
-.hasLeftCol #rightCol .cardRightCol #pagelet_suggested_events {display:none}
-.hasLeftCol #rightCol .cardRightCol #event_guest_list {width:auto}
-.hasLeftCol #rightCol .cardRightCol #event_related_events {display:none}
-.hasLeftCol #rightCol .cardRightCol #event_related_events+div {border:none!important}
-.hasLeftCol #rightCol .cardRightCol #pagelet_group_suggested_member {clear:both}
-.hasLeftCol #rightCol .cardRightCol #pagelet_group_suggested_members .groupMemberSuggestionsList,
-.hasLeftCol #rightCol .cardRightCol #pagelet_group_suggested_members .groupRecommendationsList,
-.hasLeftCol #rightCol .cardRightCol #rhc_col > div {display:none;}
-.hasLeftCol #rightCol .cardRightCol #rhc_col > div:first-child {display:block;}
+.hasLeftCol #rightCol #pagelet_rhc_ticker_card {display:none;}
+.hasLeftCol #rightCol #pagelet_group_rhc #pagelet_ego_contextual_group {display: none;}
+.hasLeftCol #rightCol .groups_rhc ._4-u2._3-96._4-u8 {display:none; overflow: hidden;}
+.hasLeftCol #rightCol .groups_rhc ._4-u2._3-96._4-u8:first-child {display:block;}
+.hasLeftCol #rightCol .groups_rhc ._4-u2._3-96._4-u8:nth-child(2) {display:block;}
+.hasLeftCol #rightCol .groups_rhc.groupSkyAux.pagelet #groupsNewMembersLink {width:25%;float:right;background:white;margin-top:10px;padding-left:10px;}
+.hasLeftCol #rightCol .groups_rhc.groupSkyAux.pagelet #groupsNewMembersLink #groupsRHCMembersFacepile~div{display:none}
 .hasLeftCol #rightCol ._64a ._64b {position:relative!important;top:0!important}
 .hasLeftCol #rightCol ._64a ._64b+div {display:none!important}
 .hasLeftCol #rightCol ._64a ._64b,
@@ -83,13 +59,8 @@
 .hasLeftCol.SettingsPage #contentArea {width:745px!important}
 .hasLeftCol #contentArea ._6l-.__c_ .fbStoryAttachmentImage.img {width:100%!important;height:auto!important}
 .hasLeftCol #contentArea #stream_pagelet ._4-u2.mvm._495i {overflow:hidden!important}
-.hasLeftCol #contentArea #stream_pagelet #u_ps_0_0_9 {display:none;}
 .hasLeftCol #contentArea #stream_pagelet ._4-u2.mvm._54bx._54bz {display:none!important}
-/*.hasLeftCol #contentArea #event_summary {width:300px;float:right}
-.hasLeftCol #contentArea #event_summary ._4-u2 {border-width:1px 1px 0 0!important;border-radius:0 3px}
-.hasLeftCol #contentArea #event_summary ._4-u2 table ._4930 {width:262px!important}
-.hasLeftCol #contentArea #event_summary ._4-u2 table ._4930 ._5xhp {white-space:normal!important}
-.hasLeftCol #contentArea #event_description ._4-u2 {min-height:170px}*/
+.hasLeftCol #contentArea #stream_pagelet #substream_1 {display:none!important}
 .hasLeftCol .groupsNewMemberDialog .uiOverlay.uiContextualDialog.uiContextualDialogArrowRight {width:340px!important}
 .hasLeftCol .groupsNewMemberDialog .uiOverlay.uiContextualDialog.uiContextualDialogArrowRight ._5nw- {width:250px!important}
 .hasLeftCol #friends_reminders_dialog ._5v-0._53im {width:400px!important}
@@ -98,17 +69,4 @@
 .hasLeftCol #pageFooter {margin-left:0!important;}
 #globalContainer ._3556 {float:right!important;}
 #globalContainer ._3557 {padding-left:0px!important}
-.pagesTimelineLayout ._2gqy {width:141px!important;}
 .pagesTimelineLayout #rightCol {width:156px!important;}
-/* chatting page */
-#pagelet_web_messenger .wmMasterView,
-#pagelet_web_messenger .wmMasterView .uiScrollableArea,
-#pagelet_web_messenger .wmMasterView .uiScrollableAreaBody{width:283px!important}
-#pagelet_web_messenger ._2nb,
-#pagelet_web_messenger ._2nb .uiScrollableArea,
-#pagelet_web_messenger ._2nb .uiScrollableAreaBody {width:673px!important}
-#pagelet_web_messenger ._2nb .emoticonsPanel .uiScrollableArea,
-#pagelet_web_messenger ._2nb .emoticonsPanel .uiScrollableAreaBody {width:278px!important}
-#pagelet_web_messenger ._2nb .emoticonsPanel .panelFlyout {right:0!important}
-#pagelet_web_messenger ._2nb .emoticonsPanel .panelFlyoutArrow {right:5px!important;left:auto!important}
-._4rw #rightCol {display:none}
