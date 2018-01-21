@@ -24,18 +24,18 @@ This a CSS stylesheet for Facebook, re-making layout clean and removing ad aroun
 
 #### Show/Hide
 
-第 24 到 31 行的設定，可以改變側邊欄欲顯示的項目。
+第 22 到 29 行的設定，可以改變側邊欄欲顯示的項目。
 
 Line | Element id    | Title
 -----|---------------|--------
-\#24 | #userNav      | 使用者
-\#25 | #pinnedNav    | 最愛
-\#26 | #groupsNav    | 社團
-\#27 | #appsNav      | 應用程式
-\#28 | #listsNav     | 朋友
-\#29 | #interestsNav | 興趣
-\#30 | #pagesNav     | 粉絲專頁
-\#31 | #eventsNav    | 活動
+\#22 | #userNav      | 使用者
+\#23 | #pinnedNav    | 最愛
+\#24 | #groupsNav    | 社團
+\#25 | #appsNav      | 應用程式
+\#26 | #listsNav     | 朋友
+\#27 | #interestsNav | 興趣
+\#28 | #pagesNav     | 粉絲專頁
+\#29 | #eventsNav    | 活動
 
 Comment or un-comment line to make them show/hide.
 
